@@ -20,3 +20,20 @@
 .App-link {
   color: #09d3ac;
 }
+
+img{
+  max-width: 700px;
+}
+
+p{
+  max-width: 700px;
+  color: #B9B9B9;
+  text-align: justify;
+  padding: 0 20px;
+  font-size: 1.3em;
+}
+
+.home-card{
+  max-width: 700px;
+  margin: 0 auto;
+}

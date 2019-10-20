@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
 import alls from '../img/all-beers.png';
 import random from '../img/random-beer.png';
 import newBeer from '../img/new-beer.png';

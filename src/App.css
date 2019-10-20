@@ -21,6 +21,9 @@
   color: #09d3ac;
 }
 
+body{
+  color: black;
+}
 img{
   max-width: 700px;
 }

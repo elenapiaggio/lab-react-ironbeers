@@ -1,0 +1,26 @@
+.card{
+    display : flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+
+img{
+    max-height: 200px;
+}
+
+.image-card{
+    width: 100%;
+    margin: 0 auto;
+}
+
+h3, h2{
+    text-align: justify;
+}
+
+p{
+    text-align: justify;
+}

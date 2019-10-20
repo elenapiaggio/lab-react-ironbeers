@@ -19,7 +19,6 @@ class BeerService {
     }
 }
 
-
 const beerService = new BeerService()
 
 export default beerService;

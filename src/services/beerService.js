@@ -10,11 +10,16 @@ class BeerService {
 
     async getAllBeers() {
         return this.axios.get('/beers')
-            .then(({ data: beers }) => beers)
+            .then(({ data: beers }) => beers);
     }
 
     async getBeerById(id) {
         return this.axios.get(`/beers/${id}`)
+            .then(({ data: beer }) => beer);
+    }
+
+    async getRandomBeer(){
+        return this.axios.get('/beers/random')
             .then(({ data: beer }) => beer);
     }
 }

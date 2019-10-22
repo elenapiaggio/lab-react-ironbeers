@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Header from './Header';
 import beerService from '../services/beerService';
 import CardBeer from './CardBeer';
 
